@@ -33,3 +33,12 @@ const ourTeam = [
     
 ]
 
+// CICLO L'ARRAY
+for (let i = 0; i < ourTeam.length; i++) {
+    const membroDelTeam = ourTeam[i];
+    console.log(`Nome: ${membroDelTeam.nome}`);
+    console.log(`Ruolo: ${membroDelTeam.ruolo}`);
+    console.log(`Foto: ${membroDelTeam.foto}`);
+    console.log("------------------------"); // Separatore tra i membri del team
+  }
+
