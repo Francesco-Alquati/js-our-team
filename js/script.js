@@ -42,3 +42,4 @@ for (let i = 0; i < ourTeam.length; i++) {
     console.log("------------------------"); // Separatore tra i membri del team
   }
 
+
