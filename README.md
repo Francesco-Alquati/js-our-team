@@ -12,11 +12,17 @@ Numero push minimo per l'esercizio base: 5/6
 Ecco i dati dell'array di oggetti:
 Nome - Ruolo - Foto
 Wayne Barnett - Founder & CEO - wayne-barnett-founder-ceo.jpg
-Angela Caroll	- Chief Editor	- angela-caroll-chief-editor.jpg
+Angela Caroll - Chief Editor - angela-caroll-chief-editor.jpg
 Walter Gordon - Office Manager - walter-gordon-office-manager.jpg
-Angela Lopez	- Social Media Manager - angela-lopez-social-media-manager.jpg
-Scott Estrada	- Developer - scott-estrada-developer.jpg
+Angela Lopez - Social Media Manager - angela-lopez-social-media-manager.jpg
+Scott Estrada - Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
 P.s. In allegato trovate un esempio di layout e le immagini da utilizzare
+
+SUDDIVIDO IL PROBLEMA IN PICCOLI SOTTOPROBLEMI 
+
+1 - Creo l'array di oggetti con tutte le informazioni
+2 - Creo un ciclo per stampare nella console le informazioni richieste
+3 - Inietto quelle info in un div nel DOM
