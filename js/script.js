@@ -1,3 +1,10 @@
+function createCol(){
+    const col = document.createElement('div');
+    col.classList.add('col-12', 'col-md-6', 'col-lg-4');
+
+    return col;
+}
+
 // CREO L'ARRAY DI OGGETTI 
 const ourTeam = [
     {
@@ -31,7 +38,7 @@ const ourTeam = [
         foto: 'barbara-ramos-graphic-designer.jpg'
     }
     
-]
+];
 
 // CICLO L'ARRAY
 for (let i = 0; i < ourTeam.length; i++) {
@@ -42,4 +49,17 @@ for (let i = 0; i < ourTeam.length; i++) {
     console.log("------------------------"); // Separatore tra i membri del team
   }
 
+// RECUPERO L'ELEMENTO NEL DOM DOVE METTERE LE INFO DEI MEMBRI
+const members_container = document.getElementById('members-container');
 
+// CICLO L'ARRAY
+for (let i = 0; i < ourTeam.length; i++){
+
+    const col = createCol();
+
+    col.innerHTML = `<div class = "card m-2">
+        nome : ${ourTeam[i].nome} <br> ruolo: ${ourTeam[i].ruolo} <br> foto: ${ourTeam[i].foto}
+    </div>`;
+
+    members_container.append(col);
+}
