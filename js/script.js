@@ -57,8 +57,11 @@ for (let i = 0; i < ourTeam.length; i++){
 
     const col = createCol();
 
-    col.innerHTML = `<div class = "card m-2">
-        nome : ${ourTeam[i].nome} <br> ruolo: ${ourTeam[i].ruolo} <br> foto: ${ourTeam[i].foto}
+    col.innerHTML = 
+    `<div class = " text-center fs-4 card m-3 shadow-lg p-3 bg-orange text-white">
+       <img src="./img/${ourTeam[i].foto}" alt="">
+       <span class = "text-danger text-uppercase fs-4 mt-3">nome</span>${ourTeam[i].nome}<br> 
+       <span class = "text-danger text-uppercase fs-4 mt-3">ruolo</span> ${ourTeam[i].ruolo}<br>
     </div>`;
 
     members_container.append(col);

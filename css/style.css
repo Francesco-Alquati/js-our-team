@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.red{
-    color: red;
+body{
+    background-color: rgb(47, 47, 204);
+}
+.violet{
+    color: rgb(255, 0, 255);
+}
+.bg-orange{
+    background-color: orange;
 }
